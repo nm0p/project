@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Физика Просто - Консультации по физике</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-atom"></i>
+                <h1>Физика Просто</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#consultations">Консультации</a></li>
+                    <li><a href="#materials">Материалы</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="auth">
+                <a href="#" class="btn btn-login">Войти</a>
+                <a href="#" class="btn btn-register">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Профессиональные консультации по физике</h2>
+                <p>Получите помощь от экспертов в решении задач, подготовке к экзаменам и освоении сложных тем</p>
+                <a href="#consultations" class="btn btn-primary">Заказать консультацию</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Физика">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="consultations">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Подготовка к ЕГЭ</h3>
+                    <p>Индивидуальные занятия по подготовке к ЕГЭ по физике с разбором всех типовых задач</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Решение задач</h3>
+                    <p>Помощь в решении задач любой сложности по всем разделам физики</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Разбор тем</h3>
+                    <p>Объяснение сложных тем школьной и университетской программы</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Лабораторные работы</h3>
+                    <p>Помощь в выполнении и оформлении лабораторных работ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="materials" id="materials">
+        <div class="container">
+            <h2 class="section-title">Учебные материалы</h2>
+            <div class="materials-tabs">
+                <button class="tab-btn active" data-tab="theory">Теория</button>
+                <button class="tab-btn" data-tab="problems">Задачи</button>
+                <button class="tab-btn" data-tab="video">Видеоуроки</button>
+                <button class="tab-btn" data-tab="formulas">Формулы</button>
+            </div>
+            <div class="materials-content">
+                <div class="tab-content active" id="theory">
+                    <h3>Теоретические материалы</h3>
+                    <div class="materials-grid">
+                        <div class="material-card">
+                            <h4>Механика</h4>
+                            <p>Кинематика, динамика, статика, гидростатика</p>
+                            <a href="#" class="btn btn-outline">Читать</a>
+                        </div>
+                        <div class="material-card">
+                            <h4>Термодинамика</h4>
+                            <p>Молекулярная физика, законы термодинамики</p>
+                            <a href="#" class="btn btn-outline">Читать</a>
+                        </div>
+                        <div class="material-card">
+                            <h4>Электродинамика</h4>
+                            <p>Электростатика, постоянный ток, магнетизм</p>
+                            <a href="#" class="btn btn-outline">Читать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="problems">
+                    <h3>Банк задач</h3>
+                    <p>Здесь будут задачи по разным разделам физики</p>
+                </div>
+                <div class="tab-content" id="video">
+                    <h3>Видеоуроки</h3>
+                    <p>Здесь будут видеоуроки по физике</p>
+                </div>
+                <div class="tab-content" id="formulas">
+                    <h3>Формулы и справочник</h3>
+                    <p>Здесь будут основные формулы по физике</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы - команда профессиональных преподавателей физики с многолетним опытом работы в школах и вузах.</p>
+                    <p>Наша цель - сделать изучение физики доступным и понятным для каждого студента и школьника.</p>
+                    <p>Мы помогаем разобраться в сложных темах, подготовиться к экзаменам и полюбить эту увлекательную науку.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Наша команда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <p><i class="fas fa-envelope"></i> info@fizikaprosto.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Физическая, д. 1</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-atom"></i>
+                    <h3>Физика Просто</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#consultations">Консультации</a></li>
+                        <li><a href="#materials">Материалы</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-subscribe">
+                    <h4>Подписаться на новости</h4>
+                    <form>
+                        <input type="email" placeholder="Ваш email">
+                        <button type="submit" class="btn btn-outline">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Физика Просто. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
